@@ -31,8 +31,8 @@ export const Signup = () => {
             onChange={(e) => {
               setLastName(e.target.value);
             }}
-            placeholder="Doe"
-            label={"Enter your Last Name"}
+            placeholder="Enter your Last name"
+            label={"Last Name"}
           />
           <InputBox
             onChange={(e) => {
